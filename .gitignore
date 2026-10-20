@@ -15,3 +15,11 @@ dist/
 *.keystore
 *.jks
 .DS_Store
+
+# Certificates and Android build/signing artifacts
+*.crt
+*.cer
+*.der
+*.p8
+*.apk
+*.aab
