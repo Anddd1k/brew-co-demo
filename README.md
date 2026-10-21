@@ -36,7 +36,7 @@ The bag is held in tab memory and intentionally resets on reload. No server orde
 
 ## Vercel readiness
 
-`vercel.json` configures Next.js and `npm ci`. No environment variables or secrets are needed. The demo is intentionally noindex. A production deployment must only be created after owner approval. No public GitHub or deployment URL is claimed in this source.
+`vercel.json` configures Next.js and `npm ci`. No environment variables or secrets are needed. The demo is intentionally noindex. The owner-approved production release is linked below. The runtime has no real payments or order transmission.
 
 Use this folder as the root directory of the separate `brew-co-demo` repository. `node_modules`, `.next`, environment files, private keys and local deployment state are ignored. See `QA.md` for the verification record.
 
@@ -47,3 +47,13 @@ Actual browser captures of the running production build.
 ![Desktop demo](docs/desktop.png)
 
 ![Mobile demo](docs/mobile.png)
+
+## Approved public release — 21 October 2026
+
+Repository: https://github.com/Anddd1k/brew-co-demo
+
+Live demo: https://brew-co-demo.vercel.app
+
+Production HTTPS route/assets/headers smoke checks passed. Browser checks: Iced filter, bag quantity 2, $11.00 demo receipt, mobile navigation at 390 px and clean console. No real payment or order submission.
+
+Owner explicitly approved public repository creation and publication of the two demos. Before push, full Git history and exported tracked source were rescanned with Gitleaks: no findings. Ignore rules and upload manifests excluded environment files, dependency/build folders and signing material. No SmokeReset source is included. Earlier local QA below is retained as dated verification history.
